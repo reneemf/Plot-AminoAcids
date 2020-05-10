@@ -3,7 +3,7 @@ MWData = {'A': 89.0941, 'C': 121.1541, 'D': 133.1039, 'E': 147.1308, 'F': 165.19
 'S': 105.0935, 'T': 119.1204, 'V': 117.1479, 'W': 204.2285, 'Y': 181.1913, 'water': 18.0153, 'X': 75.0672}
 
 fasta_file = raw_input('Enter a file path associated with a FASTA-formatted protein sequence: ')
-#test path: /Users/reneefonseca/Desktop/sequence.fasta
+#test path: /Users/example/Desktop/sequence.fasta
 with open(fasta_file, 'r') as input_file:
     protein_fasta = input_file.read().replace('\n', '')
 #print protein_fasta
